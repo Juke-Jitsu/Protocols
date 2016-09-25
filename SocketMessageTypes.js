@@ -28,6 +28,7 @@ module.exports = {
      * Message types that the Server recieves from the client
      */
     ToServerMessages: {
+        
         /*
          * {
          *     albumArtRef: [],
@@ -39,6 +40,7 @@ module.exports = {
          * }
          */
         AddToQ: "AddToQ",
+        
         /*
          * {
          *    songId: string of characters
@@ -55,9 +57,22 @@ module.exports = {
          * []
          */
         EntireQ: "EntireQ",
+        
         /**
          *    message: ""
          */
-        GreetingMessage: "GreetingMessage"
+        GreetingMessage: "GreetingMessage",
+
+        /**
+         * {
+         *     albumArtRef: [],
+         *     artist: "",
+         *     durationMillis: "",
+         *     genre: "",
+         *     nid: "",
+         *     title: ""
+         * }
+         */
+        NowPlaying: "NowPlaying"
     }
 };
