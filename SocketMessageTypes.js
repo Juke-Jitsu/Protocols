@@ -1,4 +1,4 @@
-/* 
+/*
  * The MIT License
  *
  * Copyright 2016 Kaleb Pace && Eli Davis.
@@ -54,6 +54,10 @@ module.exports = {
         /**
          * []
          */
-        EntireQ: "EntireQ"
+        EntireQ: "EntireQ",
+        /**
+         *    message: ""
+         */
+        GreetingMessage: "GreetingMessage"
     }
 };
