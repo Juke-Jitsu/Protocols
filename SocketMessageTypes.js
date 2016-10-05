@@ -43,11 +43,29 @@ module.exports = {
         
         /*
          * {
+         *    uid: browser fingerprint
          *    songId: string of characters
          *    vote: -1 | 0 | 1
          * }
          */
-        SetVote: "SetVote"
+        SetVote: "SetVote",
+
+        /**
+         * {
+         *     name: username
+         *     uid: browser fingerprint
+         * }
+         * 
+         */
+        SetUsername: "SetUsername",
+
+        /**
+         * {
+         *     uid: browser fingerprint
+         *     password: password
+         * }
+         */
+        SetAdminPassword: "SetAdminPassword"
     },
     /**
      * Message types that the client recieves from the server
@@ -73,6 +91,11 @@ module.exports = {
          *     title: ""
          * }
          */
-        NowPlaying: "NowPlaying"
+        NowPlaying: "NowPlaying",
+
+        /**
+         * level: ""
+         */
+        SetAdminPrivledgeLevel: "SetAdminPrivledgeLevel"
     }
 };
