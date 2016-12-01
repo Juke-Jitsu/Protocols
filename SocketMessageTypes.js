@@ -96,6 +96,11 @@ module.exports = {
         /**
          * level: ""
          */
-        SetAdminPrivledgeLevel: "SetAdminPrivledgeLevel"
+        SetAdminPrivledgeLevel: "SetAdminPrivledgeLevel",
+
+        /**
+         * "playing" | "finish" | "paused"
+         */
+        PlayerStatus: "PlayerStatus"
     }
 };
